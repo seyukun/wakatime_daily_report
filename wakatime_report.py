@@ -4,7 +4,7 @@ import os
 
 # 設定
 WAKATIME_API_KEY = os.environ["WAKATIME_API_KEY"]
-DISCORD_WEBHOOK_URL = os.os.environ["DISCORD_WEBHOOK_URL"]
+DISCORD_WEBHOOK_URL = os.environ["DISCORD_WEBHOOK_URL"]
 
 def get_wakatime_summary():
     today = datetime.date.today()
